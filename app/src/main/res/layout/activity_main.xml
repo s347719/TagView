@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.yineng.test.TagCloudView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tcvBorder="5dp"
+        app:tcvCanTagClick="false"
+        app:tcvItemBorderHorizontal="2dp"
+        app:tcvItemBorderVertical="4dp"
+        app:tcvSingleLine="false"
+        app:tcvTextColor="@color/black"
+        app:tcvTextSpecialColor="@color/orange"
+        app:tcvSpecialBackground="@drawable/tag_special_background"/>
+
+</RelativeLayout>
